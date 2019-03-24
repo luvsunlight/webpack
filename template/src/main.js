@@ -8,6 +8,12 @@ import App from './App'
 import router from './router'
 {{/router}}
 
+{{#vuex}}  //vuex为true的时候就会写入这些
+import Vuex from 'vuex'
+import store from  './store/store'
+Vue.use(Vuex)
+{{/vuex}}
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -16,6 +22,9 @@ new Vue({
   {{#router}}
   router,
   {{/router}}
+  {{#vuex}}
+  store,
+  {{/vuex}}
   {{#if_eq build "runtime"}}
   render: h => h(App)
   {{/if_eq}}
