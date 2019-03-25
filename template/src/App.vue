@@ -22,6 +22,14 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
 #app {
   margin-top: 60px;
   color: #2c3e50;
