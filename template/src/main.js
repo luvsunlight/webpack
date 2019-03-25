@@ -10,6 +10,10 @@ import router from './router'
 {{#vuex}}
 import store from  './store/'
 {{/vuex}}
+{{#api}}
+import Mock from './mock'
+Mock.start()
+{{/api}}
 
 Vue.config.productionTip = false
 
