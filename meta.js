@@ -82,7 +82,7 @@ module.exports = {
     api: {
       when: 'isNotTest',
       type: 'confirm',
-      message: 'Use Api?',
+      message: 'Use API?',
     },
     lint: {
       when: 'isNotTest',

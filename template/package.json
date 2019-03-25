@@ -30,8 +30,7 @@
     "vuex": "^2.1.1"{{/vuex}}{{#api}},
     "axios": "^0.18.0",
     "axios-mock-adapter": "^1.16.0",
-    "mockjs": "^1.0.1-beta3",
-    {{/api}}
+    "mockjs": "^1.0.1-beta3"{{/api}}
   },
   "devDependencies": {
     {{#lint}}
