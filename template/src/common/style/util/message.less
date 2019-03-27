@@ -1,0 +1,23 @@
+.bubble-left(@length: 9px) {
+	position: relative;
+	&:before {
+		content: " ";
+		position: absolute;
+		top: @length;
+		right: 100%;
+		border: 6px solid transparent;
+		border-right-color: #fafafa;
+	}
+}
+
+.bubble-right(@length: 9px) {
+    position: relative;
+	&:before {
+		content: " ";
+		position: absolute;
+		top: @length;
+		left: 100%;
+		border: 6px solid transparent;
+		border-left-color: #b2e281;
+	}
+}
