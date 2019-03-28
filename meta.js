@@ -84,6 +84,11 @@ module.exports = {
       type: 'confirm',
       message: 'Use API?',
     },
+    icon: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Need Icon?',
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
