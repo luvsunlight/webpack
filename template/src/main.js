@@ -3,7 +3,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 {{/if_eq}}
 import Vue from 'vue'
-import App from './App'{{#router}}
+import App from './App'
+import './util'{{#router}}
 import router from './router'{{/router}}{{#vuex}}
 import store from  './store/'{{/vuex}}{{#icon}}
 import Icon from 'vue-awesome/components/Icon'
